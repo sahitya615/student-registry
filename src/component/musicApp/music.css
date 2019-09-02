@@ -1,0 +1,16 @@
+button.music-btn {
+    border: none;
+    background-color: cadetblue;
+    border-radius: 15px;
+}
+li {
+    list-style-type: none;
+    margin: 10px;
+}
+span.song-name {
+    padding-left: 15px;
+}
+h4.title-name {
+    font-style: italic;
+    color: chocolate;
+}

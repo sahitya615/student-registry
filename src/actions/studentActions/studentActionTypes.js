@@ -1,0 +1,3 @@
+export const ADD_STUDENT = "ADD_STUDENT"
+export const DElETE_STUDENT = "DElETE_STUDENT"
+export const UPDATE_STUDENT = "UPDATE_STUDENT"
