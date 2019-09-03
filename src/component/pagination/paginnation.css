@@ -1,0 +1,15 @@
+.pagination-title {
+    text-align: center;
+}
+.pagination-wrapper {
+    margin: 30px 0px 0px 335px;
+}
+ul.pagenumber {
+    display: flex;
+}
+.pagenumber-list-item{
+    color: blue;
+}
+.pagenumber-list-item:hover{
+    text-decoration: underline;
+}

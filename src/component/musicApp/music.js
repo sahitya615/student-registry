@@ -2,10 +2,9 @@ import React, { Component } from 'react'
 import { NewMusicList } from './musicMock'
 import './music.css'
 
-
 class music extends Component {
     constructor() {
-        super()
+        super();
         this.state = {
             musicList: NewMusicList,
             play: false,
@@ -13,13 +12,10 @@ class music extends Component {
             index: 0
         }
     }
-
     toggleHandler = (ind) => {
         const { index, play } = this.state;
         (play && index === ind) ? this.pauseHandler(ind) : this.playHandler(ind)
-
     }
-
     playHandler = (ind) => {
         console.log(ind)
         this.audio && this.audio.pause()

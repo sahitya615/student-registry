@@ -4,6 +4,7 @@ import PostList from './component/postList/postList'
 import ClickIncrement from './component/hoccomponent/clickcounter'
 import MouseIcncrement from './component/hoccomponent/hovercounter'
 import Music from './component/musicApp/music'
+import Pagination from './component/pagination/pagination'
 
 class App extends Component {
   constructor() {
@@ -26,6 +27,8 @@ class App extends Component {
         <MouseIcncrement />
         <hr />
         <Music />
+        <hr />
+         <Pagination />
       </div>
 
     )
