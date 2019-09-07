@@ -1,0 +1,8 @@
+.multidropdown {
+    text-align: center;
+}
+
+select.drop_Wrapper {
+    background-color: purple;
+    color: white;
+}

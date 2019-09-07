@@ -5,6 +5,9 @@ import ClickIncrement from './component/hoccomponent/clickcounter'
 import MouseIcncrement from './component/hoccomponent/hovercounter'
 import Music from './component/musicApp/music'
 import Pagination from './component/pagination/pagination'
+import Dropdown from './component/doubledropdown/dropdown'
+import Multiplelist from './component/multiplelist/multiplelist'
+import Imgupload from './component/imgupload/imgupload'
 
 class App extends Component {
   constructor() {
@@ -29,6 +32,14 @@ class App extends Component {
         <Music />
         <hr />
          <Pagination />
+         <hr />
+         <Dropdown />
+         <br />
+         <br />
+         <hr />
+         <Multiplelist />
+         <hr />
+         <Imgupload />
       </div>
 
     )
